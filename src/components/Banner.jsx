@@ -7,7 +7,7 @@ function Banner() {
     <div>
       <div className="bg-banner h-[60vh] bg-center bg-cover flex items-end">
         <div className="text-white text-2xl font-poppins font-extralight bg-slate-900 bg-opacity-80 text-center p-2.5 w-full">
-          Project-K1
+          Project-K
         </div>
       </div>
     </div>
