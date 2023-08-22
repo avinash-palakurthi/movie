@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "./image1.jpg";
+import image from "./image.jpg";
 function Movies() {
   return (
     <div className="">
@@ -7,36 +7,11 @@ function Movies() {
         Trending Movies
       </h3>
       <div className="flex justify-center flex-wrap ">
-        <img
-          src={image1}
-          alt="img"
-          className="h-[350px] m-3 rounded-xl hover:scale-110 duration-300"
-        />
-        <img
-          src={image1}
-          alt="img"
-          className="h-[350px] m-3 rounded-xl hover:scale-110 duration-300"
-        />
-        <img
-          src={image1}
-          alt="img"
-          className="h-[350px] m-3 rounded-xl hover:scale-110 duration-300"
-        />
-        <img
-          src={image1}
-          alt="img"
-          className="h-[350px] m-3 rounded-xl hover:scale-110 duration-300"
-        />
-        <img
-          src={image1}
-          alt="img"
-          className="h-[350px] m-3 rounded-xl hover:scale-110 duration-300"
-        />
-        <img
-          src={image1}
-          alt="img"
-          className="h-[350px] m-3 rounded-xl hover:scale-110 duration-300"
-        />
+        <div className="bg-[url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTtKkb9ONX6E3pnaahkYRrdZsYo_1fH5UesZ5DxfC-QG1o7R1Ia)] h-[350px] md:h-[40vh] md:w-[180px] w-[260px] m-3 rounded-xl hover:scale-110  bg-center bg-cover duration-300 flex items-end ">
+          <div className="text-white bg-slate-800  w-full text-center bg-opacity-70 text-xl font-poppins font-light p-3 rounded-b-xl">
+            Southpaw
+          </div>
+        </div>
       </div>
     </div>
   );
